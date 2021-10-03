@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# IEEE Build-a-thon Hackthon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Link
+(https://persistent-doctor.netlify.app/)
 
-## Available Scripts
+# Problem Statement
 
-In the project directory, you can run:
+Short story - Near my home are several clinics( non-emergency Clinics ) which I noticed are very crowded during certain hours and not so in the others, and due to that crowding social distancing could not be implemented properly in those chaotic hours, 
+so the solution is if that somehow if we could know that `during which interval are the least number of patients visiting` that particular clinic so maybe if feasible we can choose that least crowded time hour.
+So that the crowd can be distributed across all working hours which will lead to efficient handling of patients by the doctors, less chaos for the clinic staff, less waiting time for patients, and shorter queues.
 
-### `npm start`
+# Solution
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So This Web App has two main Actors, a Doctor and a Patient,
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`Doctor's role` - A doctor logs in and verifies his clinic and after that he can see the list and the number of patients who booked an appointment in a particular interval ( like every 10 minutes or half an hour etc ) which is pictorially represented using a Bar Graph. He can print the List of patients and call them one by one in the clinic.
 
-### `npm test`
+`Patient's role` - A patient logs in with his number with OTP verification and searches for the doctor, he selects the doctor and picks the suitable interval for the appointment, There's a calendar from which he can select the date and a Time Slot Table from which he can select a Time Slot.
+After that, he Enters his details like full name, age, etc., and pays for the Appointment. After payment, he can generate the Invoicing Slip for the payment and appointment.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was bootstrapped with Create React App.
 
-### `npm run build`
+# Inspiration
+- Betterment of Healthcare facilities.
+- Implementation of Important measures like social distancing in these unprecedented times. 
+- Efficient hospital business model for better organised process.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Features used in the app/web
+## Brief about Technologies
+   `create-react-app`\
+   `React Hooks`\
+   `useState`, `useEffect`,`useContext`\
+   `axios`,
+   `react-table`,
+   `react-calender`,
+   `styled-components` 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description
 
-### `npm run eject`
+(All the Components are in the 'components' Folder)
+Folder Structure\
+-src\
+    &nbsp;&nbsp;&nbsp; &nbsp;-Assets\
+	  &nbsp;&nbsp;&nbsp; &nbsp;-Components\
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;-Big\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;-Medium\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;-Small
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+All Components are Hooks Based
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Naming Convention Used - BEM
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+For Styling the Components - CSS 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Directions to run locally
 
-## Learn More
+In the *project directory*, you can run:
+1. You need to have the following installed (Latest Version Preferred)
+      - Node.js
+      - npm 
+      - create-react-app using npm  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Run 'npm install'
+     - To Install all the dependencies 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run 'npm start'
+     - To Run the Project In Dev Mode  
 
-### Code Splitting
+4. Run 'ctrl + C' in the Command Line to stop the Node Deamon from serving the react app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## If Run into an Error during installation 
+1. Update Node and npm to latest version
+2. Try installing Cors library using npm as this Project uses External API to Fetch Data
+3. Comment Down the Error, and we will try to solve it
 
-### Analyzing the Bundle Size
+# Future of your project in terms of expansion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Implementing a strong Back-end with Secure payment service options.
+Implementing a hassle-free login with OTP integration.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
