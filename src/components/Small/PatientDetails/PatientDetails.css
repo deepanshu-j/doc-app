@@ -1,0 +1,41 @@
+.list__item__body {
+	display: flex;
+	width: 90vw;
+	border: 1px solid gray;
+
+	padding: 8px;
+	margin: 3px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+}
+.list_item_body_bw {
+	display: flex;
+	width: 90vw;
+	border: 1px solid gray;
+
+	/* padding: 8px; */
+	/* margin: 3px; */
+}
+.top {
+	background-color: rgba(153, 102, 255, 0.8);
+	color: white;
+}
+.idx {
+	flex: 0.1;
+	/* border: 1px solid gray; */
+}
+.name {
+	flex: 0.4;
+	/* border: 1px solid gray; */
+}
+.timeslot {
+	flex: 0.1;
+	/* border: 1px solid gray; */
+}
+
+.phone {
+	flex: 0.4;
+	/* border: 1px solid gray; */
+}

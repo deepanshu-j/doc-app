@@ -1,0 +1,93 @@
+.doctor__home {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.heading1 {
+	font-size: x-large;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 8px;
+}
+.appointment__card {
+	max-width: 30vw;
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+}
+.doc__home__right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.appointment__card2 {
+	margin-top: 20px;
+	max-width: 30vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+}
+
+.num {
+	font-size: x-large;
+	padding: 10px;
+}
+.heading2 {
+	font-size: larger;
+	font-weight: 400;
+}
+.patients__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+@media only screen and (max-width: 480px) {
+	/* BROWSER WINDOWS with a max-width of 480px.  */
+	.doctor__home {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.appointment__card {
+		max-width: 60vw;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		padding: 8px;
+		border-radius: 8px;
+		box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	}
+	.heading {
+		font-size: medium;
+		font-weight: 500;
+		letter-spacing: 1px;
+	}
+	.lower__card {
+		width: 90vw;
+	}
+	.appointment__card2 {
+		margin-top: 20px;
+		max-width: 60vw;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		padding: 8px;
+		border-radius: 8px;
+		box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.44);
+	}
+}

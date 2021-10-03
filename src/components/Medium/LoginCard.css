@@ -1,0 +1,23 @@
+.header__text {
+	font-size: larger;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.login__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 5%;
+}
+.login__card {
+	display: flex;
+	flex-direction: column;
+	max-width: 420px;
+	/* width: 40vw; */
+	margin: 5% 0 5% 0;
+}
+.login__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
