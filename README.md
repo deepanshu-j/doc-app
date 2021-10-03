@@ -76,8 +76,8 @@ In the *project directory*, you can run:
 
 # Future of your project in terms of expansion
 
-Implementing a strong Back-end with Secure payment service options.
-Implementing a hassle-free login with OTP integration.
+- Implementing a strong Back-end with Secure payment service options.
+- Implementing a hassle-free login with OTP integration.
 
 
 # Screenshots
