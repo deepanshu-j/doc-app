@@ -80,3 +80,25 @@ Implementing a strong Back-end with Secure payment service options.
 Implementing a hassle-free login with OTP integration.
 
 
+# Screenshots
+
+### Home Page
+![image](https://user-images.githubusercontent.com/55355645/135756375-c473e82b-c98b-42a8-8256-d79b0b917c16.png)
+
+![image](https://user-images.githubusercontent.com/55355645/135756416-01bfd4d7-e866-4fad-9408-ebfc5adba406.png)
+
+### Verification Page
+![image](https://user-images.githubusercontent.com/55355645/135756535-d3cfbaef-4058-4c01-ae07-471530886a53.png)
+
+### Doctor's Dashboard
+![image](https://user-images.githubusercontent.com/55355645/135756561-ee6e107a-2cb1-4397-b274-5ea164c32755.png)
+
+### Patient Search's for Doctor
+![image](https://user-images.githubusercontent.com/55355645/135756604-fc68cdc7-728a-4f45-9ed0-12261c8f4a78.png)
+
+### Patient Select's Date and Time Interval for the Appointment
+![image](https://user-images.githubusercontent.com/55355645/135756656-a9c97084-3715-4965-b0cb-e18bede47581.png)
+
+### Patient Book's and Pays and Generates an Invoice
+![image](https://user-images.githubusercontent.com/55355645/135756735-ec893981-d821-46f5-8c35-5399fc9db1e2.png)
+
